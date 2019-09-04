@@ -1,3 +1,29 @@
+nav {
+    height: 70px;
+    background: transparent; // Transparent initial setting
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease .5s;
+  }
+  
+  #home {
+    height: 900px;
+    width: 100%;
+    background-image: url('../media/560839.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .shrink {
+    height: 40px;
+    transition: all ease .5s;
+    background: black; // Change background to black on scroll
+  }
 
+  /*============ slids ==============*/
+  
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
